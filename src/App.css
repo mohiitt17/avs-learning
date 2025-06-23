@@ -1,0 +1,137 @@
+.darkgreenBg, #enq-btn  {
+  background-color: #153230;
+}
+
+.logo img {
+  height: 3.5rem;
+}
+
+ .peachBg {
+  background-color: #f0f0f0;
+} 
+
+.sector h1 {
+  width: 100%;
+
+}
+
+.fund-partners-container {
+  width: 100%;
+  overflow: hidden;
+  text-align: center;
+  padding: 20px 0;
+  min-height: 30vh;
+}
+
+.slider {
+  height: 100px; 
+  width: 80%;
+  overflow: hidden;
+  position: relative;
+}
+
+.slide-track {
+  display: flex;
+  width: calc(250px * 12); 
+  animation: scroll-left 20s linear infinite;
+}
+
+.slide-img {
+  width: 250px;
+  height: 100px;
+  object-fit: cover;
+  margin-right: 10px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
+
+
+.foundation-card {
+transition: 0.3s ease all;
+&:hover {
+  background-color: #31313c;
+}
+}
+
+.foundation-card .container {
+   min-height: 38vh; 
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+}
+
+.footer {
+  background-color: #153230;
+}
+
+
+.footer-icon {
+  height: 30px;
+  width: 30px;
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-250px * 6)); 
+  }
+}
+
+  .navbar-toggler {
+    margin-right: 1rem;
+  }
+
+
+
+.bg-alignment {
+   background-position: center; 
+  background-size: cover;
+  min-height: 15rem;
+}
+
+#weAre-banner {
+  background-image: url("./components/img/AVS-Foundation.png");
+}
+
+#programs-banner {
+  background-image: url("./components/img/Skill-Employability.png");
+}
+
+#projectPage-banner {
+background-image: url("./components/img/CSR-Projects.png");
+}
+
+#galleryPage-banner {
+  background-image: url("./components/img/DarkGreen.png");
+}
+
+.h1-5  {
+  font-size: 4.5rem;
+}
+
+.greyBg {
+  background-color: #424241;
+}
+
+#reachUs-form input {
+  background-color: transparent;
+  border: 2px solid gray;
+  margin-top: 1.2rem;
+  color: white;
+  outline: none;
+  &::placeholder {
+    color: white;
+  }
+}
+
+
+.logo {
+  height: 5.5rem;
+}
+
+
+
+
