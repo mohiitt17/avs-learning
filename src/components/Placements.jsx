@@ -1,6 +1,6 @@
 import React from 'react'
 import sriram from "./img/Sriram.png"
-import vivo from "./img/Vivo-smart-Phone.png"
+import vivo from "./img/Vivo-Smart-Phone.png"
 import airCon from "./img/SR-AIR-CON.png"
 import relianceDigital from "./img/Reliance-Digital.png"
 import relianceTrend from "./img/Reliance-Trends.png"
