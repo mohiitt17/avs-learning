@@ -1,6 +1,6 @@
 import React from 'react'
 import agrImg from "./img/agr.png"
-import healthCareImg from "./img/HealthCare.png"
+import healthCareImg from "./img/Healthcare.jpg"
 import hospitaltiyImg from "./img/Hospitality.png"
 import beautyWellImg from "./img/Beauty-Wellness.png"
 import apperalImg from "./img/Apparel.png"
